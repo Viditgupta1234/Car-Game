@@ -1,0 +1,66 @@
+body {
+    background-color: aliceblue;
+}
+
+.hide {
+    display: none;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1:hover {
+    font-weight: bold;
+    transition: 2s;
+    color: rgb(100, 206, 98);
+}
+
+.car {
+    position: absolute;
+    bottom: 100px;
+    margin: auto;
+    width: 50px;
+    height: 100px;
+    background-color: lightgreen;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.score,
+.hit {
+    background-color: black;
+    height: 70px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.enemy {
+    position: absolute;
+    bottom: 100px;
+    margin: auto;
+    width: 40px;
+    height: 80px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.gameArea {
+    background-color: black;
+    width: 250px;
+    height: 1000px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+
+.line {
+    position: absolute;
+    height: 100px;
+    width: 10px;
+    margin-left: 95px;
+    background-color: lightgray;
+}
